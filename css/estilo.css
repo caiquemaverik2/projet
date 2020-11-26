@@ -9,9 +9,9 @@ th{
       text-align: center;
       padding: 8px;
     }
- {
+ /*{
     margin: 0;
-}
+}*/
 body{
     background-color: #F7F7F7;
     font-family: Arial, Helvetica, sans-serif;
@@ -76,10 +76,30 @@ footer a:hover{
     background-color: #F7F7F7;
     color: #838351;
 }
-@media screen and 
-(min-width:1024px)
+
+
+
+@media screen and (min-width:1024px)
 {
+    
     #menu{
+        background-color: #838351;
+    }
+    #menu ul{
+        list-style: none;
+    }
+    #menu li a{
+        text-decoration: none;
+        color: #F7F7F7;
+        display: block;
+        padding: 10px;
+    }
+    #menu a:hover{
+        background-color: #F7F7F7;
+        color: #838351;
+    }
+    
+    /*#menu{
         background-color: #838351;
     }
     #menu nav{
@@ -101,7 +121,7 @@ footer a:hover{
     #menu a:hover{
         background-color:#F7F7F7;
         color: #838351;
-    }
+    }*/
     
 }
 @media screen and 
@@ -133,8 +153,9 @@ footer a:hover{
     }
     
 }
-@media screen and 
-(max-width: 767px)
+
+@media screen and  
+(min-width: 767px)
 {
     #menu{
         background-color: #838351;
@@ -160,4 +181,4 @@ footer a:hover{
         color: #838351;
     }
     
-}
+} 
